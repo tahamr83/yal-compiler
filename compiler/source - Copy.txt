@@ -1,0 +1,50 @@
+integer bf;
+
+function foo()
+begin
+integer inf;
+inf<-bf;
+end
+
+function foo1()
+begin
+integer inf;
+integer foot1;
+integer foot2;
+inf<-bf;
+foot1<-foot1+foot2*inf/bf;
+end
+
+
+main()
+begin
+integer a[5];
+integer b[3];
+integer d[2];
+integer as;
+integer g;
+integer w;
+integer x;
+integer taha;
+a[b[1]]<-d[x]+b*c+as[g[w]];
+
+if(a<b)
+begin 
+as<-g+w*x;
+x<-x+1;
+end
+else
+begin
+taha<-x;
+end
+
+while(a<b)
+begin
+a<-a+b;
+end
+foo1();
+print (x);
+input (x);
+x<-a*b;
+
+end

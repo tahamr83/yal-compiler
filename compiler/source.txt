@@ -1,0 +1,42 @@
+function foo()
+
+begin
+integer num1;
+integer num2;
+character a;
+integer result;
+a<-'b';
+input(num1);
+num2<-5;
+result<-num1+num2;
+while(num1>num2)
+begin
+num1<-num1-1;
+print(result);
+end
+
+end
+
+function foo1()
+
+begin
+foo();
+integer num1;
+integer num2;
+character a;
+integer result;
+a<-'b';
+input(num1);
+num2<-5;
+result<-num1+num2;
+while(num1>num2)
+begin
+num1<-num1-1;
+print(result);
+end
+end
+
+main()
+begin
+foo1();
+end
